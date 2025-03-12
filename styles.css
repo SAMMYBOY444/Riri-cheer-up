@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff69b4; /* Pink background */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ffc0cb; /* Light pink text */
+    font-size: 2.5em;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yesButton {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+}
+
+#noButton {
+    background-color: #f44336; /* Red button */
+    color: white;
+}
